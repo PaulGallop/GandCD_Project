@@ -31,31 +31,8 @@ The script run_analysis.Rperforms the 5 steps described in the course project's 
 
 The variables in the output tidy data set averages_data.txt are defined as follows:
 
-subject: a unique identifier for each separate subject in the experiment
-activity: laying, sitting, standing, walking, walking downstairs, or walking upsatirs
-
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
-
-The set of variables that were estimated from these signals are: 
-
-"subject": A unique numeric identifier for each person in the study
-"activity": a description of the activity laying, sitting, standing, walking, walking downstairs, or walking upsatirs
+*"subject": A unique numeric identifier for each person in the study
+*"activity": a description of the activity laying, sitting, standing, walking, walking downstairs, or walking upsatirs
 
 for each subject's activity the mean and standard deviations of a set of accelerations are given. This is the full list. The unit of each are Ms-2. The text below this list describes how these variables were originally calculated in the source data and provides an explanation of each variable name.
 
